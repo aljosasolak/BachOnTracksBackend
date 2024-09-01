@@ -1,0 +1,18 @@
+TODO:
+
+------------------------------
+ALTER TABLE appointments
+MODIFY project_id VARCHAR(50) NULL;
+
+ALTER TABLE projects
+MODIFY user_id VARCHAR(50) NULL;
+
+ALTER TABLE appointments
+MODIFY type ENUM ('PROBE', 'ANSPIELPROBE', 'GENERALPROBE', 'STIMMTERMINE', 'KONZERT', 'BESPRECHUNG') NOT NULL;
+
+ALTER TABLE appointments
+MODIFY status ENUM ('CONFIRMED', 'NOT_CONFIRMED') NOT NULL;
+
+INSERT INTO users VALUES (
+'DUMMY_USER_ID', 'Aljoša', 'Šolak', 'aljosasolak@yahoo.com'
+);
