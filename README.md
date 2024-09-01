@@ -4,3 +4,4 @@ Die REST API Webapplikation BachOnTracks wurde als Termin-Management-System entw
 Die Anwendung beinhaltet die Implementierung von CRUD-Operationen sowie Funktionen zum Hochladen, Herunterladen und Löschen von PDF-Dateien.
 
 Verwendete Technologien für das Backend: JavaEE, MariaDB, MySQL und Spring Boot.
+siehe auch BachOnTracksFrontend
